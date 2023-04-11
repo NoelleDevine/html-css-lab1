@@ -1,0 +1,100 @@
+/*resets*/
+body,
+h1,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f9fafc;
+}
+
+header {
+  padding: 10px;
+}
+
+.header-nav a {
+  text-decoration: none;
+}
+
+.header-nav li {
+  list-style: none;
+  padding: 5px;
+}
+
+.black-ref {
+  color: #000;
+}
+
+.gray-ref {
+  color: #69696a;
+  text-decoration: none;
+}
+
+.Hire-Us {
+  box-sizing: border-box;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+}
+
+main {
+  padding: 10px;
+}
+
+p {
+  color: #69696a;
+  border-left: 3px solid #69696a;
+  padding: 5px;
+}
+
+.action {
+  box-sizing: border-box;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+}
+
+footer {
+  position: fixed;
+  background-color: rgba(247, 193, 162, 0.7);
+  width: 100%;
+  padding: 5px;
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  right: 5px;
+  /* flex-wrap: wrap; */
+  /* align-content: space-around; */
+  /* padding: 5px; */
+}
+
+.footer-black {
+  color: #000;
+  text-decoration: none;
+  position: fixed;
+  left: 10px;
+}
+
+.footer-nav ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.gray-ref2 {
+  color: #69696a;
+  text-decoration: none;
+  padding: 5px;
+}
